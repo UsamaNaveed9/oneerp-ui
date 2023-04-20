@@ -1,0 +1,457 @@
+
+/* oneERP App Theme */
+
+/* color variables */
+@import "variable.css";
+
+/* login */
+.for-login .page-card .form-signin .page-card-body .form-group .email-field input[type=text] {
+    background-color: var(--orange-50);
+    border: 1px solid var(--orange-200);
+} 
+
+.for-login .page-card .form-signin .page-card-body .form-group .email-field input[type=text]::placeholder {
+    color: var(--gray-500); 
+}
+
+.for-login .page-card .form-signin .page-card-body .form-group .email-field input[type=text]:focus {
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+}
+
+
+.for-login .page-card .form-signin .page-card-body .form-group .password-field input[type=password] {
+    background-color: var(--orange-50);
+    border: 1px solid var(--orange-200);
+}
+
+.for-login .page-card .form-signin .page-card-body .form-group .password-field input[type=password]:focus {
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+}
+
+
+.for-login .page-card .form-signin .page-card-body .form-group .password-field input[type=text] {
+    background-color: var(--orange-50);
+    border: 1px solid var(--orange-200);   
+}
+
+.for-login .page-card .form-signin .page-card-body .form-group .password-field input[type=text]:focus {
+    box-shadow: 0px 0px 0px 3px rgba(87, 97, 227, 0.08);
+}
+
+.for-login .page-card .form-signin .page-card-body .form-group .password-field input[type=password]::placeholder {
+    color: var(--gray-500);
+}
+
+.for-login .page-card .form-signin .page-card-body .form-group .email-field input[type=text] svg {
+    color: var(--orange-500); 
+}
+
+.for-login .page-card .form-signin .page-card-actions .btn-login{
+  background-color: #E28D1F;
+  color: var(--white);
+}
+
+.for-login .page-card .form-signin .page-card-actions .btn-login:hover{
+    background-color: #F89B22;
+    color: var(--white);
+}
+
+.for-login .page-card .form-signin .page-card-actions .btn-login:focus{
+    background-color: #B06E18;
+    color: var(--white);
+}
+
+
+.for-login .sign-up-message a {
+  color: #E28D1F !important;
+  text-decoration: none;
+}
+
+.for-login .sign-up-message a:hover{
+    color: #F89B22 !important;
+    text-decoration: none;
+}
+
+.for-login .sign-up-message a:active {
+    color: #B06E18 !important;
+    text-decoration: none;
+}
+
+/* Forgot Form */
+
+.login-content .form-forgot .page-card-body .email-field input[type=email] {
+    background-color: var(--orange-50);
+    border: 1px solid var(--orange-200);   
+}
+
+.login-content .form-forgot .page-card-body .email-field input[type=email]:focus {
+    box-shadow: 0px 0px 0px 3px rgba(87, 97, 227, 0.08);
+}
+
+.login-content .form-forgot .page-card-actions .btn-forgot {
+    background-color: #E28D1F;
+    color: var(--white);   
+}
+
+.login-content .form-forgot .page-card-actions .btn-forgot:hover{
+    background-color: #F89B22;
+    color: var(--white);
+}
+
+.login-content .form-forgot .page-card-actions .btn-forgot:focus{
+    background-color: #B06E18;
+    color: var(--white);
+}
+
+.login-content .form-forgot .page-card-actions .sign-up-message a{
+    color: #E28D1F;
+    text-decoration: none;
+}
+
+.login-content .form-forgot .page-card-actions .sign-up-message a:hover{
+    color: #F89B22;
+    text-decoration: none;
+}
+
+.login-content .form-forgot .page-card-actions .sign-up-message a:active {
+    color: #B06E18;
+    text-decoration: none;
+}
+
+
+/* Sign Up */
+
+.for-signup .login-content .form-signup .page-card-body .form-group input[type=text] {
+    background-color: var(--orange-50);
+    border: 1px solid var(--orange-200);   
+}
+
+.for-signup .login-content .form-signup .page-card-body .form-group input[type=text]:focus {
+    box-shadow: 0px 0px 0px 3px rgba(87, 97, 227, 0.08);
+}
+
+.for-signup .login-content .form-signup .page-card-body .form-group input[type=email] {
+    background-color: var(--orange-50);
+    border: 1px solid var(--orange-200); 
+}
+
+.for-signup .login-content .form-signup .page-card-body .form-group input[type=email]:focus {
+    box-shadow: 0px 0px 0px 3px rgba(87, 97, 227, 0.08);
+}
+
+.for-signup .login-content .form-signup .page-card-actions .btn-signup {
+    background-color: #E28D1F;
+    color: var(--white);   
+}
+
+.for-signup .page-card .form-signin .page-card-actions .btn-signup:hover{
+    background-color: #F89B22;
+    color: var(--white);
+}
+
+.for-signup .page-card .form-signin .page-card-actions .btn-signup:focus{
+    background-color: #B06E18;
+    color: var(--white);
+}
+
+
+.for-signup .page-card .form-signup .page-card-actions .sign-up-message a{
+    color: #E28D1F;
+    text-decoration: none;
+}
+
+.for-signup .page-card .form-signup .page-card-actions .sign-up-message a:hover{
+    color: #F89B22;
+    text-decoration: none;
+}
+
+.for-signup .page-card .form-signup .page-card-actions .sign-up-message a:active {
+    color: #B06E18;
+    text-decoration: none;
+}
+
+/* navbar */
+
+/* login link */
+nav.navbar .navbar-collapse ul.navbar-nav li a{
+    color: var(--orange-600);
+}
+
+nav.navbar .navbar-collapse ul.navbar-nav li a:hover ,a.active:hover{
+    color: var(--orange-500);
+}
+
+nav.navbar .navbar-collapse ul.navbar-nav li a:focus ,a.active:focus{
+  color: var(--orange-700);
+}
+
+nav.navbar .navbar-collapse ul.navbar-nav li a.active{
+    color: var(--orange-800);
+}
+
+/* avatar */
+nav.navbar .navbar-collapse ul li a .avatar .avatar-frame{
+    border: 2px solid var(--orange-500); 
+    border-radius: 50%;
+}
+
+nav.navbar .navbar-collapse ul.dropdown-menu a.dropdown-item{
+    color: black;
+}
+
+nav.navbar .navbar-collapse ul.dropdown-menu a.dropdown-item:hover{
+    background-color: var(--orange-100);
+    color: black;
+}
+
+/* main */
+main .hero-section div.container a{
+    background-color: var(--orange-600);
+}
+
+main .hero-section div.container a:hover{
+    background-color: var(--orange-500);
+}
+
+main .hero-section div.container a:focus{
+    background-color: var(--orange-700) !important;
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08) !important;
+}
+
+/* card */
+main section .card .card-body a{
+    color: var(--orange-600);
+}
+
+main section .card .card-body a:hover{
+    color: var(--orange-500);
+}
+
+main section .card .card-body a:focus{
+    color: var(--orange-700);
+}
+
+main .page_content .form-group select, input[type=text], input[type=email], textarea.form-control {
+    background-color: var(--orange-50) !important;
+    border: 1px solid var(--orange-200) !important;
+}
+
+main .page_content .form-group select:hover, input[type=text]:hover, input[type=email]:hover, textarea.form-control:hover {
+    border: 1px solid var(--orange-300) !important;
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08) !important;
+}
+
+main .page_content .blog-container .blog-comments .comment-view .add-comment-section .comment-form-wrapper .new-comment button{
+    background-color: var(--orange-600);
+    color: var(--white);
+}
+
+main .page_content .blog-container .blog-comments .comment-view .add-comment-section .comment-form-wrapper .new-comment button:hover{
+    background-color: var(--orange-500);
+}
+
+main .page_content .blog-container .blog-comments .comment-view .add-comment-section .comment-form-wrapper .new-comment button:focus{
+    background-color: var(--orange-700);
+}
+
+main .page_content .blog-list-content .website-list .blog-card .blog-card-footer .avatar{
+    border: 1px solid var(--orange-800);
+    border-radius: 50%;
+}
+
+main .page_content .blog-list-content .website-list .blog-card .blog-card-footer .avatar .avatar-frame{
+    background-color: var(--orange-200);
+    color: var(--white);
+}
+
+/* blog card */
+main .page_content .blog-list-content .website-list .blog-card .blog-card-footer .text-muted a{
+    color: var(--orange-300);
+}
+
+/* filter section */
+
+main .page_content .filters-section .clear-filters {
+    color: var(--orange-300);
+} 
+
+/* item section */
+main .page_content #product-listing .toolbar .dropdown input[type=search]{
+    background-color: var(--orange-50);
+    border: 1px solid var(--orange-200);
+}
+
+main .page_content #product-listing .toolbar .toggle-container .form-group button{
+   background-color: var(--orange-600);
+}
+
+main .page_content #product-listing .toolbar .toggle-container .form-group button:hover{
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08) !important;
+}
+
+main .page_content .form-group button.btn-send{
+    background-color: var(--orange-600) !important;
+}
+
+main .page_content .form-group button.btn-send:hover{
+    background-color: var(--orange-500) !important;
+}
+
+main .page_content .form-group button.btn-send:focus{
+    background-color: var(--orange-700) !important;
+}
+
+main .page_content .blog-container .blog-content .blog-header a{
+    color: var(--orange-300);
+}
+
+/* media  avatar */
+main .page_content .blog-container .media .avatar {
+    border: 1px solid var(--orange-800);
+    border-radius: 50%;
+}
+
+main .page_content .blog-container .media .avatar .avatar-frame {
+    background-color: var(--orange-200);
+    color: var(--white);
+}
+
+main .page_content .account-info span.my-account-avatar .avatar {
+    border: 1px solid var(--orange-800);
+    border-radius: 50%;
+}
+
+main .page_content .account-info span.my-account-avatar .avatar .avatar-frame{
+    background-color: var(--orange-200);
+    color: var(--white);
+}
+
+main .page_content .account-info span.my-account-item-link span{
+    color: var(--orange-400);
+}
+
+main .page_content form .form-page .section-body .form-column form .frappe-control.input-max-width .form-group .control-input-wrapper .control-input button.btn-attach{
+    background-color: var(--orange-600);
+}
+
+main .page_content form .form-page .section-body .form-column form .frappe-control.input-max-width .form-group .control-input-wrapper .control-input button.btn-attach:hover{
+   background-color: var(--orange-500);
+}
+
+main .page_content form .form-page .section-body .form-column form .frappe-control.input-max-width .form-group .control-input-wrapper .control-input button.btn-attach:focus{
+    background-color: var(--orange-700);
+}
+
+main .page_content form .web-form-footer .web-form-actions div.right-area button.submit-btn{
+    background-color: var(--orange-600);
+}
+
+main .page_content form .web-form-footer .web-form-actions div.right-area button.submit-btn:hover{
+    background-color: var(--orange-500);
+}
+
+main .page_content form .web-form-footer .web-form-actions div.right-area button.submit-btn:focus{
+    background-color: var(--orange-700);
+}
+
+main .page_content form .web-form-footer .web-form-actions div.right-area button.discard-btn{
+    border: 1px solid var(--orange-600);
+    color: var(--orange-600);
+}
+
+main .page_content form .web-form-footer .web-form-actions div.right-area button.discard-btn:hover{
+    border: 1px solid var(--orange-500);
+    color: var(--orange-500);
+    background-color: var(--white);
+}
+
+main .page_content form .web-form-footer .web-form-actions div.right-area button.discard-btn:focus{
+    border: 1px solid var(--orange-700);
+    color: var(--orange-700);
+}
+
+main .page_content .for-reset-password .page-card form input[type=password] {
+    background-color: var(--orange-50);
+    border: 1px solid var(--orange-200);   
+}
+
+main .page_content .for-reset-password .page-card form input[type=password] {
+    color: var(--gray-500);
+}
+
+main .page_content .for-reset-password .page-card form input[type=password]:focus {
+box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+}
+
+main .page_content .for-reset-password .page-card form button.btn-update{
+    background-color: var(--orange-600);
+}
+
+main .page_content .for-reset-password .page-card form button.btn-update:hover{
+    background-color: var(--orange-500);
+}
+
+main .page_content .for-reset-password .page-card form button.btn-update:focus{
+   background-color: var(--orange-700);
+}
+
+main .page_content .for-reset-password .page-card  .sign-up-message a{
+    color: var(--orange-600) !important;
+    text-decoration: none;
+}
+
+main .page_content .for-reset-password .page-card  .sign-up-message a:hover{
+    color: var(--orange-500) !important;
+}
+
+main .page_content .for-reset-password .page-card  .sign-up-message a:focus{
+    color: var(--orange-700) !important;
+}
+
+/* address forms */
+main .page_content form .web-form-body .form-layout .form-page .section-body .form-column .frappe-control.input-max-width .form-group .control-input-wrapper .control-value.like-disabled-input {
+    background-color: var(--white);
+    border: 1px solid var(--orange-200) !important;
+}
+
+/* logout button */
+main .page_content .page-card .page-card-body a.btn.btn-primary{
+    background-color: var(--orange-600) !important;
+}
+
+main .page_content .page-card .page-card-body a.btn.btn-primary:hover{
+    background-color: var(--orange-500) !important;
+}
+
+main .page_content .page-card .page-card-body a.btn.btn-primary:focus{
+    background-color: var(--orange-700) !important;
+    box-shadow: none;
+}
+
+/* footer */
+footer.web-footer .footer-logo-extension .input-group input[type=text]{
+    background-color: var(--orange-50);
+    border: 1px solid var(--orange-200) !important;
+}
+
+footer.web-footer .footer-logo-extension .input-group input[type=text]:hover{
+    border: 1px solid var(--orange-300) !important;
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08) !important;
+}
+
+footer.web-footer .footer-logo-extension .input-group input[type=text]:focus{
+    border: 1px solid var(--orange-400) !important;
+}
+
+footer.web-footer .footer-logo-extension .input-group .input-group-append button{
+    background-color: var(--orange-600);
+    color: var(--white);
+}
+
+footer.web-footer .footer-logo-extension .input-group .input-group-append button:hover{
+    background-color: var(--orange-500);
+}
+
+footer.web-footer .footer-logo-extension .input-group .input-group-append button:focus{
+    background-color: var(--orange-700);
+}

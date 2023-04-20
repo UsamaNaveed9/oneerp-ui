@@ -1,0 +1,1505 @@
+
+
+/* oneERP App Theme */
+
+/* color variables */
+@import "variable.css";
+
+/* navbar */
+.navbar {
+    background-color: var(--orange-200);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* navbar logo */
+.navbar .navbar-brand img.app-logo{
+   width: 80px !important;
+}
+
+/* navbar search bar */
+.navbar .collapse.navbar-collapse form .search-bar #awesomplete_list_1 li[aria-selected="true"]{
+    background-color: var(--orange-100);
+}
+/* navbar search list */
+.navbar .collapse.navbar-collapse form .search-bar #awesomplete_list_1 li:hover{
+  background-color: var(--orange-100);
+} 
+
+/* navbar help & sideline */
+.navbar .collapse.navbar-collapse ul li:nth-child(3), li:nth-child(4) {
+    display: none !important;
+}
+
+/* navbar avatar */
+.navbar .collapse.navbar-collapse ul li a .avatar .avatar-frame{
+    border: 2px solid var(--orange-500);
+    border-radius: 50%;
+}
+
+/* hide toggle theme */
+.navbar .collapse.navbar-collapse ul li div#toolbar-user a:nth-child(7){
+    display: none !important;
+}
+
+/* .navbar .collapse.navbar-collapse ul li.dropdown-help .dropdown-menu-right a:hover{
+    background-color: var(--orange-100);
+} */
+
+/* navbar user toolbar */
+.navbar .collapse.navbar-collapse ul li #toolbar-user a:hover{
+    background-color: var(--orange-100);
+}
+
+/* sidebar */
+.page-body .page-content .layout-side-section .list-sidebar .desk-sidebar .sidebar-item-container .desk-sidebar-item .item-anchor .sidebar-item-label{
+  color: var(--gray-700);
+}
+
+/* sidebar link */
+.page-body .page-content .layout-side-section .list-sidebar .desk-sidebar .sidebar-item-container .desk-sidebar-item.selected{
+   background-color: var(--orange-200);
+   border-left: 6px solid var(--orange-800);
+}   
+
+.page-body .page-content .layout-side-section .list-sidebar .desk-sidebar .sidebar-item-container .desk-sidebar-item:hover{
+    background-color: var(--orange-200);
+    border-left: 6px solid var(--orange-800);
+}
+
+.sidebar-item-container .desk-sidebar a:hover{
+    background-color: var(--orange-200);
+    border-left: 3px solid var(--orange-700);
+}
+
+/* sidebar section link & inputs */
+.sidebar-section .list-group-by li.group-by-field a{
+    border: 1px solid var(--orange-200);
+}
+
+.sidebar-section .list-group-by li.group-by-field a:hover {
+    background-color: var(--orange-100);
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+}
+
+.sidebar-section .list-group-by li.add-list-group-by a.add-group-by{
+    color: black;
+}
+
+.sidebar-section .list-tags li.list-stats a{
+   border: 1px solid var(--orange-200)
+}
+
+.sidebar-section .list-tags li.list-stats a:hover{
+    background-color: var(--orange-100);
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+}
+
+.sidebar-section .list-tags li.show-tags a{
+    color: black;
+}
+
+.sidebar-section li.list-filters input[type=text]{
+    background-color: var(--white);
+    border: 1.5px solid var(--orange-200);
+}
+
+.sidebar-section li.list-filters input[type=text]:hover{
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+}
+
+.sidebar-section li.list-filters input[type=text]::placeholder{
+    color: var(--gray-600);
+} 
+
+.sidebar-section .current-view li.sidebar-action a.view-action{
+    color: black;
+}
+
+.layout-main .layout-side-section .form-sidebar ul.sidebar-menu li.sidebar-image-wrapper .dropdown .dropdown-menu a{
+    background-color: var(--orange-200);
+}
+
+.layout-main .layout-side-section .list-sidebar  .desk-sidebar .standard-sidebar-section .desk-sidebar-item .sidebar-item-control button.drag-handle:hover, .setting-btn:hover {
+    background-color: var(--orange-300) !important;
+}
+
+
+.layout-main .layout-side-section .list-sidebar  .desk-sidebar .standard-sidebar-section .desk-sidebar-item .sidebar-item-control .dropdown-list .dropdown-item:hover {
+    background-color: var(--orange-200);
+}
+
+.layout-side-section .list-sidebar ul.sidebar-menu .sidebar-section .current-view li.list-link a:hover{
+  background-color: var(--orange-100);
+} 
+
+/* sidebar form */
+.layout-main .form-sidebar ul li button {
+    background-color: var(--white);
+    border: 1px solid var(--orange-300);
+} 
+
+.layout-main .form-sidebar ul li button:hover {
+    background-color: var(--orange-100);
+} 
+
+.layout-main .form-sidebar ul li button:focus {
+    background-color: var(--orange-600) !important;
+} 
+
+/* add tag */
+.layout-main .form-sidebar ul li input { 
+     background-color: var(--white);
+    border: 1px solid var(--orange-300);    
+}
+
+
+/* sidebar leaderboard */
+
+.layout-side-section .leaderboard-sidebar li.selected {
+    background-color: var(--orange-200);
+    border-left: 6px solid var(--orange-800);
+}
+
+.layout-side-section .leaderboard-sidebar li:hover {
+    background-color: var(--orange-200);
+    border-left: 6px solid var(--orange-700); 
+}
+
+.layout-side-section .list-sidebar .sidebar-menu .current-view li.list-link a{
+    background-color: var(--white);
+    border: 1px solid var(--orange-200);
+}
+
+/* desktop app */
+
+.layout-side-section{
+    background-color: var(--gray-50);
+}
+
+.layout-main-section{
+    background-color: var(--gray-800);
+}
+
+/* desktop app */
+.layout-main-section-wrapper .layout-main-section {
+    background-color: var(--gray-50);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* upper widget desktop */
+.links-widget-box {
+    background-color: var(--gray-700);
+}
+
+/* app widget */
+.widget {
+    background-color: var(--white);
+	border: 1.5px solid var(--gray-300);
+}
+
+/* widget shortcuts */
+/* upper-widget icon */
+.ce-block .widget  .widget-title{
+    padding: 10px 0;
+    position: relative;
+}
+
+.widget .widget-head{
+    display: inline;
+}
+
+.widget .widget-head .widget-label .widget-title .icon-xs {
+    position: absolute;
+    right: 0;
+}
+
+.ce-block .widget  .widget-title span{
+    color: var(--gray-700);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.ce-block .widget.shortcut-widget-box:hover svg{
+   stroke: var(--orange-600) !important;
+}
+
+.ce-block .spacer{
+    background-color: transparent;
+    border: none;
+}
+
+.widget .widget-body .link-item:hover{
+     color: var(--orange-600);
+}
+
+.ce-block__content .divider{
+    visibility: hidden;
+}
+
+/* app links & buttons */
+.widget.dashboard-widget-box .widget-head .widget-control .chart-actions ul li a:hover{
+    background-color: var(--orange-100);
+}
+
+/* chart button */
+.widget.dashboard-widget-box .widget-head .widget-control .chart-actions button.chart-menu{
+    background-color: var(--orange-600);
+}
+
+.widget.dashboard-widget-box .widget-head .widget-control .chart-actions button.chart-menu:hover{
+    background-color: var(--orange-500);
+}
+
+.widget.dashboard-widget-box .widget-head .widget-control .chart-actions button.chart-menu:focus{
+    background-color: var(--orange-700);
+}
+
+.widget.dashboard-widget-box .widget-head .widget-control .chart-actions a button.btn-secondary{
+    background-color: var(--orange-600);
+}
+
+.widget.dashboard-widget-box .widget-head .widget-control .chart-actions a button.btn-secondary:hover{
+    background-color: var(--orange-500);
+}
+
+.widget.dashboard-widget-box .widget-head .widget-control .chart-actions a button.btn-secondary:focus{
+    background-color: var(--orange-700);
+}   
+
+.widget.onboarding-widget-box .widget-control button:hover{
+    background-color: var(--orange-300);
+}
+
+/* hrms widget */
+.widget.quick-list-widget-box .widget-head .widget-control .add-new, .refresh-list, .filter-list{
+    background-color: var(--orange-600) !important;
+}
+
+.widget.quick-list-widget-box .widget-head .widget-control .add-new:hover, .refresh-list:hover, .filter-list:hover{
+    background-color: var(--orange-500) !important;
+}
+
+.widget.quick-list-widget-box .widget-head .widget-control .add-new:focus, .refresh-list:focus, .filter-list:focus{
+    background-color: var(--orange-700) !important;
+}
+
+.widget.quick-list-widget-box .widget-footer .see-all{
+    background-color: var(--orange-600) !important;
+}
+
+.widget.quick-list-widget-box .widget-footer .see-all:hover{
+    background-color: var(--orange-500) !important;
+}
+
+.widget.quick-list-widget-box .widget-footer .see-all:focus{
+    background-color: var(--orange-700) !important;
+}
+
+
+/* .ce-block .ce-block__content .widget.quick-list-widget-box .widget-head .widget-control div{
+    background-color: var(--orange-600);
+} */
+
+/* filter button */
+.widget.dashboard-widget-box .widget-head .widget-control .filter-chart{
+    background-color: var(--orange-600);
+}
+
+.widget.dashboard-widget-box .widget-head .widget-control .filter-chart:hover{
+    background-color: var(--orange-500);
+}
+
+.widget.dashboard-widget-box .widget-head .widget-control .filter-chart:focus{
+    background-color: var(--orange-700);
+}
+
+
+/* widget widget-lower app links */
+.widget .widget-body .link-item:hover{
+    background-color: var(--orange-50);
+  }
+  
+  .widget .widget-body .link-item:hover .indicator-pill.yellow, .indicator-pill.gray {
+    background-color: var(--orange-50) !important;
+  }
+
+.widget .widget-head .widget-control button.drag-handle:hover{
+    background-color: var(--orange-300);
+}  
+
+.widget .widget-head .widget-control button.edit-button:hover{
+    background-color: var(--orange-300);
+}
+
+
+/* custom actions  */
+/* workspace btn */
+.custom-actions button.ellipsis{
+    font-size: 12px;
+    text-align: center;
+    color: var(--orange-600);
+    border: 1px solid var(--orange-600);
+    border-radius: 8px;
+    background-color: var(--white);
+    padding: 4px 24px;
+}
+
+.custom-actions button.ellipsis:hover{
+    text-align: center;
+    color: var(--orange-500);
+    border: 1px solid var(--orange-500);
+    background-color: var(--white);
+    box-shadow: 0px 0px 4px 2px rgba(87, 98, 227, 0.15);
+}
+
+.custom-actions button.ellipsis:active{
+    background-color: var(--white) !important;
+    border: 1px solid var(--orange-700) !important;
+    color: var(--orange-700) !important;
+    box-shadow: 0px 0px 4px 2px rgba(87, 98, 227, 0.15) !important;
+}
+
+.custom-actions button.ellipsis:focus{
+    background-color: var(--white) !important;
+    border: 1px solid var(--orange-700);
+    color: var(--orange-700);
+}
+
+.custom-actions .inner-group-button button.btn-default:active{
+    background-color: var(--orange-600);
+}
+
+
+.custom-actions .inner-group-button .dropdown-menu a:hover{
+    background-color: var(--orange-100);
+}
+
+/* standard actions */
+/* edit button */
+.standard-actions .btn-sm {
+   color: var(--white);
+   background-color: var(--orange-600);
+   border-radius: 8px;
+   padding: 4px 24px;
+}
+
+.standard-actions .btn-sm:hover{
+    color: var(--white);
+    background-color: var(--orange-500);
+    border: 1px solid var(--orange-500);
+}
+
+.standard-actions .btn-sm:active{
+    color: var(--white) !important;
+    background-color: var(--orange-700) !important;
+}
+
+/* refresh button */
+.standard-actions .page-icon-group button{
+    background-color: var(--orange-600);
+}
+
+.standard-actions .page-icon-group button:hover{
+   background-color: var(--orange-500);
+}
+
+.standard-actions .page-icon-group button:focus{
+    background-color: var(--orange-700);
+}
+
+/* item menu btn */
+.standard-actions .menu-btn-group button:hover{
+    background-color: var(--orange-600);
+} 
+
+.standard-actions .menu-btn-group button:active{
+    background-color: var(--orange-700) !important;
+}
+
+.page-actions .standard-actions ul li a:hover{
+    background-color: var(--orange-100);
+}
+
+/* item list view */
+.custom-actions .custom-btn-group ul li a:hover{
+    background-color: var(--orange-100);
+}
+
+/* page-form */
+
+/* filter forms */
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .standard-filter-section input[type=text] {
+    background-color: var(--white);
+    border: 1.5px solid var(--orange-200);
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .standard-filter-section input[type=text]:hover {
+    box-shadow:  0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+    border: 1px solid var(--orange-300);
+}
+
+/* group selector */
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .filter-section .group-by-selector button.group-by-button{
+    background-color: var(--white);
+    border: 1px solid var(--orange-300);
+}
+
+ /* Checkbox   */
+
+/* .layout-main-section-wrapper .layout-main-section.frappe-card .page-form .standard-filter-section .checkbox .input-area input[type=checkbox] { */
+    /* accent-color: var(--orange-300); */
+    /* filter: invert(100%) hue-rotate(10deg) brightness(1.7); */
+    /* border: 2px solid var(--orange-500); */
+    /* outline: 2px solid var(--orange-500); */
+    /* visibility: hidden; */
+/* } */
+
+/* top app input */
+/* standard-filter-section inputs, select, dropdown */
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form input[type=text] {
+    background-color: var(--white);
+    border: 1.5px solid var(--orange-200);
+}
+
+.layout-main .layout-main-section-wrapper .layout-main-section .frappe-list .dashboard-view .msg-box p button{
+    background-color: var(--orange-600);
+}
+
+.layout-main-section-wrapper .layout-main-section .frappe-list .dashboard-view .msg-box p button:hover{
+    background-color: var(--orange-500);
+}
+
+.layout-main-section-wrapper .layout-main-section .frappe-list .dashboard-view .msg-box p button:focus{
+  background-color: var(--orange-700);
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form input[type=text]:hover {
+    box-shadow:  0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+    border: 1.5px solid var(--orange-300);
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .multiselect-list.dropdown .form-control{
+    background-color: var(--white);
+    border: 1.5px solid var(--orange-100);
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .multiselect-list.dropdown .form-control:hover {
+    box-shadow:  0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+    border: 1.5px solid var(--orange-300);
+}
+
+.layout-main-section-wrapper .layout-main-section .page-form .form-group.frappe-control input[type=text] {
+    background-color: var(--white);
+    border: 1.5px solid var(--orange-200);
+}
+
+.layout-main-section-wrapper .layout-main-section .page-form .form-group.frappe-control input[type=text]:hover {
+    border: 1.5px solid var(--orange-300);
+    box-shadow:  0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+}
+
+/* .ui-front .checkbox{
+    filter: invert(100%) hue-rotate(10deg) brightness(1.7);
+    background-color: var(--disabled-control-bg) !important;
+    box-shadow: inset 0px 1px 7px rgba(0, 0, 0, 0.1);
+    border: 0.5px solid var(--gray-300);
+    pointer-events: none;
+
+}
+
+.edit-share:disabled {
+    background-color: rgba(247, 217, 142, 0.1) !important;
+    /* filter: invert(100%) hue-rotate(10deg) brightness(1.7); */
+    /* box-shadow: inset 0px 1px 7px rgba(0, 0, 0, 0.1); */
+    /* border: 0.2px solid rgba(247, 217, 142, 0.1); */
+    /* pointer-events: none; */
+/* }  */
+
+/* .add-share-read .add-share-write .add-share-share input[type=checkbox]{
+    background-color: var(--orange-100) !important;
+} */
+
+ /* .checkbox .input-area input[type=checkbox]{
+    filter: invert(100%) hue-rotate(10deg) brightness(1.7);
+}  */
+
+
+/* 
+ .layout-main-section-wrapper .layout-main-section div .std-form-layout .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .checkbox-options .checkbox.unit-checkbox input[type=checkbox] {
+    filter: invert(100%) hue-rotate(10deg) brightness(1.7);
+
+}  */
+
+/* grid  checkbox */
+/* .layout-main-section-wrapper .layout-main-section div .std-form-layout .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .form-grid input[type=checkbox] {
+    filter: invert(100%) hue-rotate(10deg) brightness(1.7);
+} */
+
+/* attach button */
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-page .card-section .section-body form .frappe-control .form-group .control-input-wrapper .control-input button.btn-attach{
+    background-color: var(--orange-600);
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-page .card-section .section-body form .frappe-control .form-group .control-input-wrapper .control-input button.btn-attach:hover{
+    background-color: var(--orange-500);
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-page .card-section .section-body form .frappe-control .form-group .control-input-wrapper .control-input button.btn-attach:focus{
+    background-color: var(--orange-700);
+}
+
+/* disable checkbox */
+/* .layout-main-section-wrapper .layout-main-section div .std-form-layout .form-layout .form-page .form-section.card-section .form-column form .frappe-control.input-max-width .checkbox .disp-area input[text=checkbox].disable-selected {
+    background-color: var(--gray-200);
+} */
+/* grid checkbox */
+/* .layout-main-section-wrapper .layout-main-section div .std-form-layout .form-layout .form-page .form-section.card-section .form-column form .frappe-control.form-group .form-grid .row-check .grid-row-check {
+    filter: invert(100%) hue-rotate(7deg);  
+} */
+
+/* password field */
+.layout-main-section-wrapper .layout-main-section div .std-form-layout .form-layout .form-page .form-section.card-section .form-column form .frappe-control.input-max-width .control-input-wrapper input[type=password] {
+    background-color: var(--white);
+    border: 1px solid var(--orange-200);
+}
+
+/* Filter section */
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .filter-section .filter-selector button{
+    background-color: var(--white);
+    border: 1px solid var(--orange-600);
+    color: var(--orange-600);
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .filter-section .filter-selector button:hover{
+    box-shadow:  0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+    background-color: var(--white);
+    border: 1px solid var(--orange-500);
+    color: var(--orange-500);
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .filter-section .filter-selector button:focus{
+    background-color: var(--white);
+    border: 1px solid var(--orange-700);
+    color: var(--orange-700);
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .filter-section .filter-selector button .filter-icon svg use{
+    stroke: black !important;
+}
+
+.layout-side-section .list-sidebar .sidebar-menu .sidebar-section.filter-section .list-tags li ul .dropdown-search input[type=text] {
+    background-color: var(--white);
+    border: 1px solid var(--orange-300);
+}
+
+/* Sort Selector */
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .filter-section .sort-selector .btn-order:hover{
+  background-color: var(--orange-600);
+} 
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .filter-section .sort-selector .sort-selector-button:hover{
+  background-color: var(--orange-600);
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .filter-section .sort-selector .sort-selector-button ul li a:hover{
+    background-color: var(--orange-100);
+}
+
+/* frappe-list */
+.layout-main-section-wrapper .layout-main-section.frappe-card .frappe-list .msg-box .btn-new-doc {
+    background-color: var(--orange-600);
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .frappe-list .msg-box .btn-new-doc:hover{
+    background-color: var(--orange-500);
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .frappe-list .msg-box .btn-new-doc:focus{
+    background-color: var(--orange-700);
+    box-shadow: none;
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .frappe-list .list-paging-area .level-right button{
+    background-color: var(--orange-600);
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .frappe-list .list-paging-area .level-right button:hover{
+    background-color: var(--orange-500);
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .frappe-list .list-paging-area .level-right button:focus{
+    background-color: var(--orange-700);
+}
+
+/* .layout-main-section-wrapper .layout-main-section.frappe-card .frappe-list .result input[type=checkbox]{
+    filter: invert(100%) hue-rotate(10deg) brightness(1.7);   
+} */
+
+.standard-actions .btn-sm--selected{
+    background-color: var(--orange-700);
+    color: var(--white);
+    border: 1px solid var(--orange-700);
+}
+
+.ce-block__content .links-widget-box .widget-title span{
+    color: var(--gray-800);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* widget links-widget-box */
+.ce-block__content .links-widget-box .widget-body .link-item .link-content{
+  color: var(--gray-700);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* module cart */
+.widget.links-widget-box .widget-head .widget-title .icon{
+    display: none;
+}
+
+/* .widget .widget-title .icon{
+    display: none;
+} */
+
+/* app onboarding */
+.widget.onboarding-widget-box .onboarding-steps-wrapper .onboarding-step.active{
+   background-color: var(--orange-500);
+}
+
+.widget.onboarding-widget-box .onboarding-steps-wrapper .onboarding-step:hover{
+    background-color: var(--orange-300);
+}
+
+.widget.onboarding-widget-box .onboarding-step-preview .onboarding-step-footer button{
+   background-color: var(--orange-200);
+   color: black;
+}
+
+.widget .widget-body .onboarding-steps-wrapper a.onboarding-step.pending.active{
+    background-color: var(--orange-500);
+}
+
+.widget .widget-body .onboarding-steps-wrapper a.onboarding-step.pending:hover{
+    background-color: var(--orange-300);
+}
+
+/* modal */
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .form-column form .control-input-wrapper .control-input .link-field input{
+    background-color: var(--white);
+    border: 1px solid var(--orange-200);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .form-column form .control-input-wrapper .control-input .link-field input:hover{
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .form-column form .control-input-wrapper .control-input .link-field input::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--gray-800);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .form-column form .control-input-wrapper .control-input .input-with-feedback {
+    background-color: var(--white);
+    border: 1px solid var(--orange-200);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .form-column form .control-input-wrapper .control-input .input-with-feedback:hover {
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .form-column form .control-input-wrapper .control-input .input-with-feedback option:hover{
+  background-color: var(--orange-200);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .form-column form .control-input-wrapper .control-input .multiselect-list .form-control{ 
+    background-color: var(--white);
+    border: 1px solid var(--orange-200);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .form-column form .input-max-width .checkbox .input-area input[type="checked"]:checked{ 
+    accent-color: var(--orange-100);    
+}
+
+.modal .modal-dialog .modal-content .modal-footer .standard-actions button.btn-model-primary{
+    background-color: var(--orange-600);
+}
+
+.modal .modal-dialog .modal-content .modal-footer .standard-actions button.btn-model-primary:hover{
+    background-color: var(--orange-500);
+}
+
+.modal .modal-dialog .modal-content .modal-footer .standard-actions button.btn-model-primary:focus{
+    background-color: var(--orange-700);
+}
+
+.modal .modal-dialog .modal-content .modal-footer .custom-actions button.btn-secondary{
+   background-color: var(--orange-600);
+}
+
+.modal .modal-dialog .modal-content .modal-footer .custom-actions button.btn-secondary:hover{
+    background-color: var(--orange-500);
+}
+
+.modal .modal-dialog .modal-content .modal-footer .custom-actions button.btn-secondary:focus{
+    background-color: var(--orange-700);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body .frappe-control p a.new-doc{
+   background-color: var(--orange-600);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body .frappe-control p a.new-doc:hover{
+    background-color: var(--orange-500);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body .frappe-control p a.new-doc:focus{
+    background-color: var(--orange-700);
+}
+
+/* .modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body .form-column form .frappe-control.form-group .form-grid .grid-heading-row .grid-row .data-row input[type=checkbox] {
+    filter: invert(100%) hue-rotate(10deg) brightness(1.7);
+} */
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body .form-column form .frappe-control .grid-footer .grid-buttons button.grid-add-row{
+    background-color: var(--orange-600);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body .form-column form .frappe-control .grid-footer .grid-buttons button.grid-add-row:hover {
+    background-color: var(--orange-500);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body .form-column form .frappe-control .grid-footer .grid-buttons button.grid-add-row:focus {
+    background-color: var(--orange-700);
+}
+
+/* shared with */
+/* .modal .modal-dialog .modal-content .modal-body div.row.shared-user{
+    filter: invert(100%) hue-rotate(10deg) brightness(1.7);  
+} */
+/* 
+.modal .modal-dialog .modal-content .modal-body div.row.shared-user input[disabled=disabled]{
+    filter: hue-rotate(d7eg) brightness(1.7);  
+} */
+
+.modal .modal-dialog .modal-content .modal-body div.row .input-wrapper-add-share .form-group.frappe-control .link-field input[type=text]{
+    background-color: var(--white);
+    border: 1.5px solid var(--orange-600)
+}
+
+.modal .modal-dialog .modal-content .modal-body div.row .input-wrapper-add-share .form-group.frappe-control .link-field input[type=text]:hover{
+    border: 1.5px solid var(--orange-500)
+}
+
+.modal .modal-dialog .modal-content .modal-body div.row .input-wrapper-add-share .form-group.frappe-control .link-field ul li[aria-selected=true]{
+    background-color: var(--orange-100);
+}
+
+.modal .modal-dialog .modal-content .modal-body div.row .input-wrapper-add-share .form-group.frappe-control .link-field ul li:hover{
+    background-color: var(--orange-100);
+}
+
+.modal .modal-dialog .modal-content .modal-body div button.btn-add-share{
+    background-color: var(--orange-600);
+}
+
+.modal .modal-dialog .modal-content .modal-body div button.btn-add-share:hover{
+    background-color: var(--orange-500);
+}
+
+.modal .modal-dialog .modal-content .modal-body div button.btn-add-share:focus{
+    background-color: var(--orange-700);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body form .form-group .control-input-wrapper .control-input button{
+    background-color: var(--orange-600);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body form .form-group .control-input-wrapper .control-input button:hover{
+    background-color: var(--orange-500);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body form .form-group .control-input-wrapper .control-input button:focus{
+    background-color: var(--orange-700);
+}
+
+/* modal configure column */
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .form-column form .frappe-control .form-group .selected-fields .control-input.fields_order{
+    background-color: var(--orange-100);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .form-column form .frappe-control .form-group .selected-fields .control-input.fields_order .row input{
+    border: 1.5px solid var(--orange-200);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .form-column form .frappe-control .form-group .selected-fields .control-input.fields_order .row input:hover{
+    border: 1.5px solid var(--orange-500);
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body .frappe-control .filter-area .filter-box .list_filter input{
+    background-color: var(--white);
+    border: 1px solid var(--orange-200);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body .frappe-control .filter-area .filter-box .list_filter ul li[aria-selected="true"]{
+     background-color: var(--orange-200);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body .frappe-control .filter-area .filter-box .list_filter ul li:hover{
+    background-color: var(--orange-200);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body .frappe-control .filter-area .filter-box .list_filter select:focus{
+    background-color: var(--white);
+    border: 1px solid var(--orange-200);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body .frappe-control .filter-area .filter-action-buttons button.add-filter:hover{
+     background-color: var(--orange-100);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body .frappe-control .filter-area .filter-action-buttons div button.clear-filters{
+    background-color: var(--orange-600);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body .frappe-control .filter-area .filter-action-buttons div button.clear-filters:hover{
+    background-color: var(--orange-500);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .section-body .frappe-control .filter-area .filter-action-buttons div button.clear-filters:focus{
+    background-color: var(--orange-700);
+}
+
+
+/* checkbox  */
+
+/* input[type=checkbox]:disabled{
+    background-color: red !important;
+    box-shadow: inset 0px 1px 7px rgba(0, 0, 0, 0.1);
+    border: 0.5px solid var(--gray-300);
+    pointer-events: none;
+} */
+
+/* file upload */
+.modal .modal-dialog .modal-content .modal-body .file-uploader input[type=text], input[type=search]{
+   background-color: var(--white);
+   border: 1px solid var(--orange-200);
+}
+
+.modal .modal-dialog .modal-content .modal-body .file-uploader input[type=text]:hover, input[type=search]:hover{
+   border: 1px solid var(--orange-300);
+   box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+}
+
+.modal .modal-dialog .modal-content .modal-body .file-uploader input[type=text]:focus, input[type=search]:focus{
+    background-color: var(--white);
+    border: 1px solid var(--orange-700);
+}
+
+/* print format builder */
+.layout-main-section-wrapper .layout-main-section .print-format-builder-main.frappe-card .frappe-control.input-max-width .control-input-wrapper .control-input input[type=text] {
+    background-color: var(--white);
+    border: 1px solid var(--orange-200);
+}
+
+.layout-main-section-wrapper .layout-main-section .print-format-builder-main.frappe-card .frappe-control.input-max-width .control-input-wrapper .control-input ul li[aria-selected="true"] {
+   background-color: var(--orange-100);
+}
+
+.layout-main-section-wrapper .layout-main-section .print-format-builder-main.frappe-card .frappe-control.input-max-width .control-input-wrapper .control-input ul li:hover {
+   background-color: var(--orange-100);
+}
+/* print format builder buttons  */
+.layout-main-section-wrapper .layout-main-section .print-format-builder-main.frappe-card .padding p button{
+    background-color: var(--orange-600);
+}
+
+.layout-main-section-wrapper .layout-main-section .print-format-builder-main.frappe-card .padding p button:hover{
+    background-color: var(--orange-500);
+}
+
+.layout-main-section-wrapper .layout-main-section .print-format-builder-main.frappe-card .padding p button:focus{
+    background-color: var(--orange-700);
+}
+
+/* popover body */
+.popover-body .filter-area .filter-box .list_filter input, select.condition, select.input-with-feedback{
+    background-color: var(--white);
+    border: 1px solid var(--orange-200);
+}
+
+.popover-body .filter-area .filter-box .list_filter input, select.condition, select.input-with-feedback:hover{
+    border: 1px solid var(--orange-400);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+    background-color: var(--white);
+}
+
+.popover-body .filter-area .filter-box .list_filter select.condition, select.input-with-feedback:focus{
+    background-color: var(--white);
+    box-shadow: none;
+    border: 1px solid var(--orange-400);
+}
+
+.popover-body .filter-area .filter-box .list_filter .filter-field .link-field ul li[aria-selected="true"]{
+    background-color: var(--orange-100);
+    color: black;   
+}
+
+.popover-body .filter-area .filter-box .list_filter .filter-field .link-field ul li[aria-selected="true"] a p span{
+color: black !important;
+}
+
+.popover-body .filter-area .filter-box .list_filter .filter-field .link-field ul li:hover{
+background-color: var(--orange-100);
+
+}
+
+.popover-body .filter-area .filter-box .list_filter .filter-field .link-field ul li a p span{
+color: black !important;
+}
+
+
+/* select filter popover body */
+/* .popover-body .filter-area .filter-box .list_filter select.condition option:hover{
+     background-color: var(--orange-100) !important;
+}
+select option:hover::-ms-value {
+    background-color: red !important;
+} */
+
+/* popover-body filter-buttons */
+
+/* add filter btn */
+.popover-body .filter-area .filter-action-buttons button.add-filter{
+    color: var(--orange-600);
+} 
+
+.popover-body .filter-area .filter-action-buttons button.add-filter:hover{ 
+   background-color: var(--orange-100);
+   color: var(--white);
+}
+
+.popover-body .filter-area .filter-action-buttons button.add-filter:focus{ 
+    color: var(--orange-700);
+}
+
+.popover-body .filter-area .filter-action-buttons button.clear-filters{
+    background-color: var(--orange-600);
+    color: var(--white);
+}
+
+.popover-body .filter-area .filter-action-buttons button.clear-filters:hover{
+    background-color: var(--orange-500);
+    color: var(--white);
+}
+
+.popover-body .filter-area .filter-action-buttons button.clear-filters:focus{
+    background-color: var(--orange-700);
+    color: var(--white);
+}
+
+/* apply filter btn */
+.popover-body .filter-area .filter-action-buttons button.apply-filters{
+    background-color: var(--orange-600);
+}
+
+.popover-body .filter-area .filter-action-buttons button.apply-filters:hover{ 
+    background-color: var(--orange-500);
+}
+
+.popover-body .filter-area .filter-action-buttons button.apply-filters:focus{ 
+    background-color: var(--orange-700);
+}
+
+.popover-body .group-by-box .list_groupby select {
+    border: 1px solid var(--orange-200);
+    background-color: var(--white);
+}
+
+/* .popover-body .group-by-box .list_groupby select option[data-doctype="DocShare"]:hover{
+    scrollbar-color: var(--orange-100);
+} */
+
+/* leaderboard */
+
+.layout-main-section-wrapper .layout-main-section .page-form .leaderboard-search input[type=text]{
+    background-color: var(--white);
+    border: 1.5px solid var(--orange-200);
+    color: var(--gray-500);
+} 
+
+.layout-main-section-wrapper .layout-main-section .page-form .leaderboard-search input[type=text]:hover{
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+}
+
+.layout-main-section-wrapper .layout-main-section .page-form .leaderboard-search input[type=text]::placeholder{
+    color: var(--gray-800);
+}
+
+.layout-main-section-wrapper .layout-main-section .page-form .link-field input[type=text] {
+    background-color: var(--white);
+    border: 1.5px solid var(--orange-200);
+}
+
+.layout-main-section-wrapper .layout-main-section .page-form .link-field input[type=text]:hover {
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+}
+
+/* Accounting Module */
+
+/* Chart Of Accounts */
+
+.layout-main-section-wrapper .layout-main-section ul li:hover{
+    background-color: var(--gray-300);
+}
+
+/* report-wrapper */
+
+/* datatable header dropdown */
+.layout-main-section-wrapper .layout-main-section.frappe-card .report-wrapper .datatable .dt-dropdown-container .dt-dropdown__list .dt-dropdown__list-item:hover {
+   background-color: var(--orange-50);
+} 
+
+/* report-footer */
+.layout-main-section-wrapper .layout-main-section.frappe-card .report-footer .tree-footer button{
+    background-color: var(--orange-600);
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .report-footer .tree-footer button:hover{
+    background-color: var(--orange-500);
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .report-footer .tree-footer button:focus{
+    background-color: var(--orange-700);
+}
+
+/* datatable cell color */
+.layout-main-section-wrapper .layout-main-section.frappe-card .report-wrapper .datatable .dt-scrollable .dt-cell--focus .dt-cell__content{
+    border-color: var(--orange-200);
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .frappe-list .result .datatable .dt-scrollable .dt-cell--focus .dt-cell__content{
+    border-color: var(--orange-200);
+}
+
+/* Accounts Dashbaord */
+.page-container .page-body .page-wrapper .dashboard .widget-group .widget .widget-head .widget-control ul li:hover{
+    background-color: var(--orange-200);
+}
+
+/* form dashboard */
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .form-group .control-input-wrapper input[type=text] {
+    background-color: var(--white);
+    border: 1px solid var(--orange-300)
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column .form-group .control-input-wrapper textarea{
+    background-color: var(--white);
+    border: 1px solid var(--orange-300)
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .form-group .control-input-wrapper .link-field ul li a span {
+    color: var(--orange-600) !important; 
+}
+
+/* diabled field */
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .form-group .control-input-wrapper .like-disabled-input {
+    background-color: var(--white);
+    border: 1px solid var(--orange-200)
+}
+
+/* address button */
+/* .layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control p button.btn-address {
+    background-color: var(--orange-600);
+    color: var(--white);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control p button.btn-address:hover {
+    background-color: var(--orange-500);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control p button.btn-address:active {
+    background-color: var(--orange-700);
+} */
+
+/* links table
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .form-grid input[type=checkbox]{
+    filter: invert(100%) hue-rotate(10deg) brightness(1.7);
+} */
+
+/* editing row button */
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .form-grid .grid-body .form-in-grid .grid-form-heading .grid-header-toolbar .row-actions button.btn-secondary {
+   background-color: var(--orange-600);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .form-grid .grid-body .form-in-grid .grid-form-heading .grid-header-toolbar .row-actions button.btn-secondary:hover {
+  background-color: var(--orange-500);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .form-grid .grid-body .form-in-grid .grid-form-heading .grid-header-toolbar .row-actions button.btn-secondary:focus {
+    background-color: var(--orange-700);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .form-grid .grid-body .form-in-grid .grid-form-body .grid-footer-toolbar button.btn-secondary {
+   background-color: var(--orange-600);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .form-grid .grid-body .form-in-grid .grid-form-body .grid-footer-toolbar button.btn-secondary:hover {
+   background-color: var(--orange-500);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .form-grid .grid-body .form-in-grid .grid-form-body .grid-footer-toolbar button.btn-secondary:focus {
+    background-color: var(--orange-700);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .grid-footer div.text-right a{
+    background-color: var(--orange-600);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .grid-footer div.text-right a:hover{
+    background-color: var(--orange-500);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .grid-footer div.text-right a:focus{
+    background-color: var(--orange-700);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column .form-group.frappe-control .form-grid .grid-body .grid-row .grid-form-body .form-layout .form-page .fornm-section .section-body form .form-group .control-input-wrapper .fetch-from-select select{
+    border:1px solid var(--orange-200);
+    background-color: var(--white);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column .form-group.frappe-control .form-grid .grid-body .grid-row .grid-form-body .form-layout .form-page .fornm-section .section-body form .form-group .control-input-wrapper .fetch-from-select select:hover{
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08);;      
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .grid-footer .grid-buttons button.btn-secondary{ 
+    background-color: var(--orange-600);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .grid-footer .grid-buttons button.btn-secondary:hover{ 
+   background-color: var(--orange-500);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .grid-footer .grid-buttons button.btn-secondary:focus{
+    background-color: var(--orange-700); 
+}
+
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .frappe-control .form-group .control-input-wrapper button{
+    background-color: var(--gray-300);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .frappe-control .form-group .control-input-wrapper button:hover{
+    background-color: var(--gray-400);
+}
+
+/* editor */
+/* .layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .form-group .control-input-wrapper .control-input .ql-toolbar{
+     border: 1px solid var(--orange-200);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .form-group .control-input-wrapper .control-input .ql-container{
+    border: 1px solid var(--orange-200);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .form-section .section-body .form-column form .frappe-control .form-group .control-input-wrapper .control-input .ql-toolbar{
+    border: 1px solid var(--orange-200);
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-layout .form-page .form-section .section-body .form-column form .frappe-control .form-group .control-input-wrapper .control-input .ql-container{
+    border: 1px solid var(--orange-200);
+} */
+
+/* .layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .form-group .control-input-wrapper .control-input .ql-container .ql-editor{
+    background-color: var(--orange-100);
+} */
+
+
+/* Doctype message */
+.layout-main-section-wrapper .layout-main-section div .std-form-layout .form-message.blue {
+    background-color: var(--white);
+    color: black;
+}
+
+.layout-main-section-wrapper .layout-main-section div .std-form-layout .form-message.blue a {
+    font-weight: 500;
+}
+
+/*  */
+/* .layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control .form-group .control-input-wrapper .link-field input[type=text] {
+} */
+
+/* .icon-xs use symbol path:hover{
+background:red !important;
+stroke:red !important;
+fill: rgb(255, 238, 0) !important;
+}
+.icon-xs path:hover {
+    fill: rgb(255, 238, 0) !important; 
+  } */
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .input-max-width select{
+    border: 1.5px solid var(--orange-200);
+}  
+/* 
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .input-max-width select option:hover,option:focus,option:active{
+    background-color: red !important;
+} */
+
+/* performance-graphs .chart-filter */
+.layout-main-section-wrapper .layout-main-section .user-profile .performance-graphs .card-options .chart-filter a button.btn-secondary{
+    background-color: var(--orange-600);
+    color: var(--white);
+}
+
+.layout-main-section-wrapper .layout-main-section .user-profile .performance-graphs .card-options .chart-filter a button.btn-secondary:hover{
+    background-color: var(--orange-500);
+    color: var(--white);
+}
+
+.layout-main-section-wrapper .layout-main-section .user-profile .performance-graphs .card-options .chart-filter ul li a:hover{
+    background-color: var(--orange-100);
+}
+
+/* input dropdown */
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .frappe-control .link-field ul li[aria-selected="true"]{
+    background-color: var(--orange-100);
+    color: black;
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .frappe-control .link-field ul li[aria-selected="true"] a p span{
+    color: black !important;
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .frappe-control .link-field ul li a p span{
+    color: black !important;
+}
+
+.layout-main-section-wrapper .layout-main-section.frappe-card .page-form .frappe-control .link-field ul li:hover{
+    background-color: var(--orange-100);
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .section-body .form-column .frappe-control .form-group .control-input-wrapper .control-input .link-field ul li[aria-selected="true"]{
+    background-color: var(--orange-100);
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .section-body .form-column .frappe-control .form-group .control-input-wrapper .control-input .link-field ul li:hover{
+    background-color: var(--orange-100);
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .section-body .form-column .frappe-control .form-group .control-input-wrapper .control-input.table-multiselect button.data-pill{
+    border: 1px solid var(--orange-600);
+    color: var(--orange-600);
+    background-color: var(--white);
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .section-body .form-column .frappe-control .form-group .control-input-wrapper .control-input.table-multiselect button.data-pill:hover{
+    border: 1px solid var(--orange-500);
+    color: var(--orange-500);
+    box-shadow: 0px 0px 4px 2px rgba(87, 98, 227, 0.15);  
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .section-body .form-column .frappe-control .form-group .control-input-wrapper .control-input.table-multiselect button.data-pill:focus{
+    border: 1px solid var(--orange-700);
+    color: var(--orange-700);
+}
+
+.layout-main-section-wrapper .layout-main-section .page-form .frappe-control.input-max-width .multiselect-list ul li:hover, div.selectable-items li:hover{
+    background-color: var(--orange-100);
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .form-section.card-section .section-body .form-column .frappe-control .form-group .control-input-wrapper .control-input .link-field ul li a p span{
+    color: black !important;
+}
+
+
+/* documents links */
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .form-dashboard .form-dashboard-section.form-links .section-body .transactions .form-documents .document-link .document-link-badge, button.btn.btn-new {
+    background-color: var(--orange-600);
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .form-dashboard .form-dashboard-section.form-links .section-body .transactions .form-documents .document-link .document-link-badge:hover, button.btn.btn-new:hover {
+    background-color: var(--orange-500);
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .form-dashboard .form-dashboard-section.form-links .section-body .transactions .form-documents .document-link .document-link-badge:focus, button.btn.btn-new:focus {
+    background-color: var(--orange-700);
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .form-dashboard .form-dashboard-section.form-links .section-body .transactions .form-documents .document-link .document-link-badge span.count{
+    background-color: var(--orange-100);
+    color: black;
+}
+
+/* comment section */
+.layout-main-section-wrapper div .form-footer .comment-box .comment-input-wrapper .comment-input-container .frappe-control .ql-container .ql-editor{
+    background-color: var(--orange-50);
+    border: 1px solid var(--orange-200);
+}
+
+.layout-main-section-wrapper div .form-footer .comment-box .comment-input-wrapper .comment-input-container .frappe-control .ql-container .ql-editor:hover{
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+}
+
+.layout-main-section-wrapper div .form-footer .comment-box .comment-input-wrapper .comment-input-container .frappe-control .ql-container .ql-editor:active{
+    border: 1px solid var(--orange-700);
+}
+
+/* comment button */
+.layout-main-section-wrapper div .form-footer .comment-box .comment-input-wrapper button.btn-comment{
+   background-color: var(--orange-600);
+}
+
+.layout-main-section-wrapper div .form-footer .comment-box .comment-input-wrapper button.btn-comment:hover{
+    background-color: var(--orange-500);
+}
+
+.layout-main-section-wrapper div .form-footer .comment-box .comment-input-wrapper button.btn-comment:focus{
+    background-color: var(--orange-700);
+}
+
+/*  */
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .form-section.card-section .section-body .form-column form .frappe-control.input-max-width .duration-picker .picker-row input{
+    background-color: var(--orange-100);
+}
+
+/*  */
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .section-body .form-column form .frappe-control .form-group .control-input-wrapper button.btn.btn-xs.btn-default{
+    background-color: var(--orange-600);
+}
+
+/* nav links */
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .form-tabs-list ul.nav.form-tabs li.nav-item:hover{
+    background-color: var(--orange-100);
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .form-tabs-list ul.nav.form-tabs li.nav-item a.nav-link.active{
+    border-bottom: 1px solid var(--orange-300);
+}
+
+/* bulk select options */
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .section-body .form-column form .frappe-control .bulk-select-options button{
+    background-color: var(--orange-600);
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .section-body .form-column form .frappe-control .bulk-select-options button:hover{
+    background-color: var(--orange-500);
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .section-body .form-column form .frappe-control .bulk-select-options button:focus{
+    background-color: var(--orange-700);
+}
+
+/* disable inputs */
+/* .layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .section-body .form-column form .frappe-control .form-group .control-input-wrapper{
+    border: 1px solid var(--orange-200) !important;
+} */
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .section-body .form-column form .frappe-control .form-group .control-input-wrapper .control-value.like-disabled-input span{
+    color: var(--orange-300) !important;
+}
+
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .section-body .form-column form .frappe-control .form-grid .grid-body .grid-row .data-row .grid-static-col .static-area.reqd span{
+    color: var(--orange-300) !important;
+}
+
+/* pagination btttons */
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .section-body .form-column form .frappe-control .form-clickable-section .grid-pagination button{
+    background-color: var(--orange-600);
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .section-body .form-column form .frappe-control .form-clickable-section .grid-pagination button:hover{
+    background-color: var(--orange-500);
+}
+
+.layout-main-section-wrapper .layout-main-section .std-form-layout .form-layout .form-page .section-body .form-column form .frappe-control .form-clickable-section .grid-pagination button:focus{
+    background-color: var(--orange-700);
+}
+
+/* BOM  */
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .section-body .frappe-control.input-max-width .form-group .control-input-wrapper .control-input .link-field input[type=text] {
+    background-color: var(--white);
+    border: 1.5px solid var(--orange-200);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .section-body .frappe-control.input-max-width .form-group .control-input-wrapper .control-input .link-field input[type=text]:hover {
+    border: 1.5px solid var(--orange-300);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .section-body .frappe-control.input-max-width .form-group .control-input-wrapper .control-input .link-field ul li[aria-selected="true"]{
+    background-color: var(--orange-100);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .section-body .frappe-control.input-max-width .form-group .control-input-wrapper .control-input .link-field ul li:hover{
+    background-color: var(--orange-100);
+}
+
+.layout-main-section-wrapper .layout-main-section .form-layout .form-page .section-body .frappe-control.input-max-width .form-group .control-input-wrapper .control-input .link-field ul li a p span{
+    color: black !important;
+}
+
+/* setup-wizard */
+
+.slide-container .slide-body .section-body .form-column form .frappe-control.input-max-width .form-group .control-input-wrapper .control-input input[type=text], input[type=password] {
+    background-color: var(--orange-50);
+    border: 1px solid var(--orange-200) !important;
+}
+
+.slide-container .slide-body .section-body .form-column form .frappe-control.input-max-width .form-group .control-input-wrapper .control-input input[type=text]::placeholder, input[type=password]::placeholder {
+    color: var(--gray-500) !important; 
+}
+
+.slide-container .slide-body .section-body .form-column form .frappe-control.input-max-width .form-group .control-input-wrapper .control-input input[type=text]:focus, input[type=password]:focus {
+    box-shadow: 0px 0px 0px 3px rgba(87, 98, 227, 0.08);
+    background-color: var(--orange-50) !important;
+}
+
+.slide-container .slide-body .section-body .form-column form .frappe-control.input-max-width .form-group .control-input-wrapper .control-input ul li  {
+    background-color: var(--orange-200);
+}
+
+.slide-container .slide-body .section-body .form-column form .frappe-control.input-max-width .control-input button.btn-attach{
+    background-color: var(--orange-600);
+    color: var(--white);
+}
+
+.slide-container .slide-body .section-body .form-column form .frappe-control.input-max-width .control-input button.btn-attach:hover{
+    background-color: var(--orange-500);
+}
+
+.slide-container .slide-body .section-body .form-column form .frappe-control.input-max-width .control-input button.btn-attach:focus{
+    background-color: var(--orange-700);
+}
+
+.slides-wrapper .slide-footer button{
+    background-color: var(--orange-600);
+    color: var(--white);
+}
+
+.slides-wrapper .slide-footer button:hover{
+    background-color: var(--orange-500);
+    color: var(--white);
+}
+
+.slides-wrapper .slide-footer button:focus{
+    background-color: var(--orange-700) !important;
+    color: var(--white) !important;
+}
+
+.content.page-container .slides-progress .slide-step {
+    border: 1px solid var(--orange-400);
+}
+
+.content.page-container .slides-progress .slide-step .slide-step-indicator {
+    background-color: var(--orange-200);
+}
+
+.content.page-container .slides-progress .slide-step.step-success{
+    background-color: var(--orange-600) !important;
+}
